@@ -6,8 +6,8 @@
   },
   "main": "site.config.js",
   "scripts": {
-    "start": "node prelaunch.js && nanogen start",
-    "build": "node prelaunch.js && nanogen build"
+    "start": "rm -r dirname ./src/pages -f && git clone https://github.com/NoodleExtensions/NE-Documentation ./src/pages/ && nanogen start",
+    "build": "rm -r dirname ./src/pages -f && git clone https://github.com/NoodleExtensions/NE-Documentation ./src/pages/ && nanogen build"
   },
   "keywords": [],
   "author": "",
