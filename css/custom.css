@@ -2,6 +2,12 @@ html {
     scroll-behavior: smooth;
 }
 
+.sidebar {
+    padding-right: 4%;
+    margin-left: 1%;
+    margin-right: -4%;
+}
+
 .credit {
     display: none;
 }
