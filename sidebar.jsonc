@@ -1,0 +1,45 @@
+/*
+Max 2 levels of children. 2nd level MUST be an array.
+To add your pages to the sidebar, use the following format as an example:
+
+"node": {
+    "title": "Node Title",
+    "children": {
+      "anotherNode": {
+         "title": "Sub-node",
+         "children": [
+             {"title": "A page", "link": "/link/to/markdown/file/without/md/on/the/end"}
+         ]
+      }
+   }
+}
+*/
+{
+  "installation": {
+    "title": "Installation Guide",
+    "children": {
+      "quest": {
+        "title": "Quest",
+        "children": [
+          {
+            "title": "Downloading NE",
+            "link": "/installation/quest/download"
+          },
+          {
+            "title": "Installing NE",
+            "link": "/installation/quest/install"
+          }
+        ]
+      },
+      "pc": {
+        "title": "PC",
+        "children": [
+          {
+            "title": "Using ModAssistant",
+            "link": "/installation/pc/using_ma"
+          }
+        ]
+      }
+    }
+  }
+}
