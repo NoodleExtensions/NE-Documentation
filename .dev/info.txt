@@ -1,0 +1,3 @@
+This folder is used to preview markdown files.
+
+Open view.html to preview the contents of the markdown file specified in the script.

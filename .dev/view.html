@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/bulma-prefers-dark" />
+<script>
+    // Change this file to the file you're editing!
+    const file = "../../index.md";
+
+    const client = new XMLHttpRequest();
+    client.open('GET', file);
+    client.onreadystatechange = function() {
+        const html = new showdown.Converter().makeHtml(client.responseText);
+        document.getElementById("preview").innerHTML = html;
+    }
+    client.send();
+
+
+</script>
+
+<div id="preview" class="content" style="padding: 5rem"></div>
