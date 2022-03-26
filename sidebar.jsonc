@@ -26,8 +26,12 @@ To add your pages to the sidebar, use the following format as an example:
             "link": "/installation/quest/download"
           },
           {
-            "title": "Installing NE",
-            "link": "/installation/quest/install"
+            "title": "Installing using BMBF",
+            "link": "/installation/quest/install_bmbf"
+          },
+          {
+            "title": "Installing using QuestPatcher",
+            "link": "/installation/quest/install_qp"
           }
         ]
       },
