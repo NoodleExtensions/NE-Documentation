@@ -1,0 +1,19 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-link:not(.is-arrowless)::after {
+    border-color: #2f2f2f !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    .dark-image {
+        display: none;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .light-image {
+        display: none;
+    }
+}
