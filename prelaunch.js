@@ -1,7 +1,11 @@
 const fs = require('fs-extra');
 
 console.log("Prelaunching.");
+try {
 
+} catch {
+
+}
 fs.removeSync("./src/pages");
 
 const process = require('child_process');
