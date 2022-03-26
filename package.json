@@ -7,8 +7,8 @@
   },
   "main": "site.config.js",
   "scripts": {
-    "start": "rm -r dirname ./src/pages -f && git clone https://github.com/NoodleExtensions/NE-Documentation ./src/pages/ && nanogen start",
-    "build": "rm -r dirname ./src/pages -f && git clone https://github.com/NoodleExtensions/NE-Documentation ./src/pages/ && nanogen build"
+    "start": "rm -r dirname ./src/pages -f && git clone --branch docs https://github.com/NoodleExtensions/NE-Documentation ./src/pages/ && nanogen start",
+    "build": "rm -r dirname ./src/pages -f && git clone --branch docs https://github.com/NoodleExtensions/NE-Documentation ./src/pages/ && nanogen build"
   },
   "keywords": [],
   "author": "",
