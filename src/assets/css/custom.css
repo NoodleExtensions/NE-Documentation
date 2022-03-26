@@ -10,6 +10,16 @@ html {
     display: inline-block;
 }
 
+.content {
+    padding: 25px;
+}
+
+.content > image {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+}
+
 .navbar-link:not(.is-arrowless)::after {
     border-color: #2f2f2f !important;
 }
