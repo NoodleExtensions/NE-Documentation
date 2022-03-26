@@ -101,39 +101,30 @@
       <ul class="menu-list">
         <li><a href="/">Information</a></li>
       </ul>
-      <%
-        function handleElement(element, level) {
-          if(level === 0) {
-            %>
+      
             <p class="menu-label">
-                    <%= element.title %>
+                    Installation Guide
             </p>
             <ul class="menu-list">
-            <%
-          } else {
-            %>
+            
               <li>
-                <ul><p class="menu-label"><%= element.title %></p></ul>
+                <ul><p class="menu-label">Quest</p></ul>
 
-              <%
-          }
+              
+              <ul><a href="/installation/quest/download">Downloading NE</a></ul>
+            
+              <ul><a href="/installation/quest/install">Installing NE</a></ul>
+            
+              </li>
+              <li>
+                <ul><p class="menu-label">PC</p></ul>
 
-          if(Array.isArray(element["children"])) {
-            element["children"].forEach(child => {%>
-              <ul><a href="<%= child.link %>"><%= child.title %></a></ul>
-            <%});%>
-              </li><%
-          } else {
-            Object.entries(element.children).forEach(elm => handleElement(elm[1], level+1))
-              %>
+              
+              <ul><a href="/installation/pc/using_ma">Using ModAssistant</a></ul>
+            
+              </li>
             </ul>
-      <%
-          }
-        }
-        Object.entries(site.sidebar).forEach(elm => {
-          handleElement(elm[1], 0)
-        });
-       %>
+      
 <!--      <ul class="menu-list">-->
 <!--        <li><a>Dashboard</a></li>-->
 <!--        <li><a>Customers</a></li>-->
@@ -168,7 +159,9 @@
   <div class="column">
     <div>
       <div class="content">
-        <%- body %>
+        <h1 id="ne-documentation">NE-Documentation</h1>
+<p>Documentation for Noodle Extensions and related mods.</p>
+
       </div>
     </div>
   </div>
