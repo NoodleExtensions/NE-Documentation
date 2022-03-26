@@ -6,7 +6,7 @@ You can download Noodle Extensions for quest from the following sources:
 - [Beat Saber Modding Group](https://discord.gg/beatsabermods)
 - [GitHub](https://github.com/StackDoubleFlow/NoodleExtensions/releases/latest)
 
-Make sure to download the file that has the `.qmod` file extension - `.so` and `.zip` are invalid.
+Make sure to download the file that has the `.qmod` file extension - any other file types are invalid.
 
 Once you have got your `.qmod` file - you can install it.
 
