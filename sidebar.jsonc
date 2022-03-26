@@ -31,7 +31,7 @@ To add your pages to the sidebar, use the following format as an example:
           },
           {
             "title": "Installing using QuestPatcher",
-            "link": "/installation/quest/install_qp"
+            "link": "/installation/quest/install_questpatcher"
           }
         ]
       },
