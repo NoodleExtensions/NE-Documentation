@@ -25,7 +25,7 @@ After you do that, you then need to press "Install or Update" in the bottom righ
   
 If you followed all the steps correctly, Noodle Extensions should now have a green version number to the right of it's name.
   
-<div align="left"><img align="left" src="https://github.com/NoodleExtensions/Resources/blob/main/pc%20modding/green%20number.png?raw=true"/></div>
+<div align="center"><img align="center" src="https://github.com/NoodleExtensions/Resources/blob/main/pc%20modding/green%20number.png?raw=true"/></div>
 <br>
 <br>
 <hr>
