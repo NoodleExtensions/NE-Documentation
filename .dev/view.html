@@ -8,8 +8,7 @@
     const client = new XMLHttpRequest();
     client.open('GET', file);
     client.onreadystatechange = function() {
-        const html = new showdown.Converter().makeHtml(client.responseText);
-        document.getElementById("preview").innerHTML = html;
+        document.getElementById("preview").innerHTML = new showdown.Converter().makeHtml(client.responseText);
     }
     client.send();
 
